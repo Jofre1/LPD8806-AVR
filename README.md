@@ -10,3 +10,4 @@ where the user will interact with a control board or device where lamps are used
 To use this program , just create a project using the ATTiny45 with the fuses programmed for the internal oscillator at 8 MHZ. 
 
 Copy the file SPI_Led3_1.c in the project root and build. The default value on numLEDs is 32,  to be used with 1 meter strip. Change this number according to your project.
+For details on this LED controller you can visit http://texonix.com/blog/?p=8 and see the Use of LPD8806 article.
